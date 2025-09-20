@@ -1,7 +1,8 @@
 // script.js
 
-// new Audio object
+// audi object
 const sound = new Audio('assets/sound.wav');
+const progressBar = document.getElementById('progress-bar')
 
 function playWav() {
     // check if sound is playing
@@ -13,8 +14,17 @@ function playWav() {
     } else {
         // plays sound file
         sound.play();
-    }
+    }   
 } // end playWav
+
+sound.addEventListener('timeupdate', () => {
+    const progress = (sound.currentTime/sound.duration) * 100;
+    progressBar.style.width = progress + '%';
+});
+
+sound.addEventListener('ended', () => {
+    progressBar.style.width = '0%';
+});
 
 // get elements from the html file
 let play = document.getElementById('launch');
