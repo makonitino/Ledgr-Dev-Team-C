@@ -1,26 +1,73 @@
-.btn-dark {
-background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
-border: none;
-border-radius: 10px;
-padding: 15px 30px;
-cursor: pointer;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-transition: all 0.3s ease-in-out;
-backdrop-filter: blur(10px);
-color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 16px 24px;
+}
+
+
+main {
+    text-align: center;
+     height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-top: calc(164px - 56px);
+}
+
+.actions-area {
+    margin-bottom: 100px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: black;
+    background-color: yellow;
+    width: 264px;
+    height: 50px;
+    padding: 7px 27px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
 
 .btn-dark:hover {
 box-shadow: 0 0 20px rgb(252, 250, 250);
 transform: scale(1.05);
 }
 
-.btn-dark:active{
-    transform: scale(0.95)
+.btn-dark {
+   background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+border: none;
+border-radius: 10px;
+padding: 15px 30px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+transition: all 0.3s ease-in-out;
+backdrop-filter: blur(100px);
+color: black;
 }
 
-body{
-    background-color: grey
-}
+
 
 
