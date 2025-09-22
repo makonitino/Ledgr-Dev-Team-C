@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #01aca4, #01aca7);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -69,3 +69,4 @@ body {
                 inset -2px -2px 5px rgba(0, 0, 0, 0.2),
                 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+
