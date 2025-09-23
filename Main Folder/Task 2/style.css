@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #01aca4, #01aca7);
+    background: rgba(198, 214, 243);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -12,20 +12,18 @@ body {
     display: flex;
     gap: 12px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 9999px;
     backdrop-filter: blur(12px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-
-    align-items: center;
 }
 
 /* Progress Bar Container */
 .progress-container {
-    width: 250px; /* Same as input box */
+    width: 350px; /* Same as input box  Task 1*/
     height: 5px;
-
-    border-radius: 10px;
+    border-radius: 50vh;
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(8px);
@@ -52,14 +50,14 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
-
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
+    border-radius: 9999px;
     box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.6),
                 inset -2px -2px 5px rgba(0, 0, 0, 0.2),
                 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .launch:hover {
@@ -69,4 +67,3 @@ body {
                 inset -2px -2px 5px rgba(0, 0, 0, 0.2),
                 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-
