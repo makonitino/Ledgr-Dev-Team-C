@@ -1,14 +1,19 @@
 {
-    "manifest_version":3,
     "name":"ChromeWorkExtension",
     "version":"1.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "",
+    "action": {     
+        "default_popup": "index.html",
+        "default_title": "ChromeWorkExtension"
+    },
 
     "content_scripts": [
         {
             "matches":["<all_urls>"],
             "js":["Content.js"]
-
-        }
-        
-    ]
+        }  
+    ],
+    "permissions": ["storage", "scripting", "activeTab"]
 }
