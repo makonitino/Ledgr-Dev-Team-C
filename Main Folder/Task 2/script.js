@@ -18,6 +18,7 @@ function playWav() {
 } // end playWav
 
 sound.addEventListener('timeupdate', () => {
+    // uses properties of the Audio file, and progress bar, to animate sound duration
     const progress = (sound.currentTime/sound.duration) * 100;
     progressBar.style.width = progress + '%';
 });
