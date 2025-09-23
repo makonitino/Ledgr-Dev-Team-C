@@ -7,7 +7,7 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background: rgb(198, 214, 243);
+    background: rgba(198, 214, 243);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,10 @@ body{
 .container{
     text-align:center;
     background: rgba(255, 255, 255, 0.2);
-  padding: 30px ;
-    border-radius: 90px;
+    padding: 30px ;
+    border-radius: 170px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -50,13 +49,19 @@ body{
     font-weight: bolder;
     font-style: normal;
     background: rgba(201, 214, 218, 0.227);
+    background:rgba(255,255,255,0.3);
     color:cornflowerblue;
     border: none;
     border-radius: 25px; 
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    z-index:0;
+    inset:0;
+    overflow:hidden;
+    isolation: isolate;
+    text-shadow:0 4px 6px rgba rgba(0,0,0,0.8); 
 }
 
 #generateButton:hover{
@@ -69,14 +74,21 @@ body{
 }
 
 
-#generateButton{
-    backdrop-filter: blur(10px);
-    box-shadow:0px 4px 6px rgba(0,0,0,0.2);
 
-}
 .water-shadow-container{
     margin-top:20px;
     color-scheme: black;
  
 }
+
+.globe{
+    font-size:80px;
+    color:white;
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+    margin-bottom:10px;
+
+}
+
+
 /*Done by Noluthando Dlamini*/
+
