@@ -35,7 +35,7 @@ body{
     font-size: 14px;
     text-align: center;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     border: none;
     background: rgba(255, 255, 255, 0,6); 
     border-radius: 25px;
@@ -84,11 +84,12 @@ body{
 .globe{
     font-size:80px;
     color:white;
-    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     margin-bottom:10px;
 
 }
 
 
 /*Done by Noluthando Dlamini*/
+
 
