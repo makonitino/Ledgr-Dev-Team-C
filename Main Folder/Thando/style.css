@@ -6,8 +6,8 @@
 
 
 body{
-    font-family:Arial, sans-serif;
-    background: #e6e9f0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(198, 214, 243);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -19,10 +19,12 @@ body{
 .container{
     text-align:center;
     background: rgba(255, 255, 255, 0.2);
-    padding: 50px;
-    border-radius: 20px;
+  padding: 30px ;
+    border-radius: 90px;
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
 }
 
 
@@ -30,28 +32,35 @@ body{
     width: 400px;
     padding: 15px;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-family:Arial, sans-serif;
+    font-size: 14px;
     text-align: center;
+    font-style: normal;
+    font-weight: bold;
     border: none;
     background: rgba(255, 255, 255, 0,6); 
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    color:cornflowerblue;
 }
 
 #generateButton{
     padding: 15px 30px;
     font-size: 18px;
-    background: rgba(0, 200, 255, 0.227);
-    color:white;
+    font-weight: bolder;
+    font-style: normal;
+    background: rgba(201, 214, 218, 0.227);
+    color:cornflowerblue;
     border: none;
-    border-radius: 50%; /*50% bevel shape*/
+    border-radius: 25px; 
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 #generateButton:hover{
-    background: rgba(0, 128, 255, 0.8);
+    background: rgba(194, 199, 203, 0.8);
     transform: translateY(-2px);
 }
 
@@ -59,7 +68,7 @@ body{
     transform: translateY(2px);
 }
 
-/*Liquid Glass Effect*/
+
 #generateButton{
     backdrop-filter: blur(10px);
     box-shadow:0px 4px 6px rgba(0,0,0,0.2);
@@ -67,8 +76,6 @@ body{
 }
 .water-shadow-container{
     margin-top:20px;
+    color-scheme: black;
  
 }
-/*Done byNoluthando*/
-
-
