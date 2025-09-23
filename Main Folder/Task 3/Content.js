@@ -16,4 +16,4 @@ function WorkToBuid(node){
 WorkToBuid(document.body); //calling the function with document body to start the process
 
 // The above code will replace all instances of the word "work" with "build" in the text content of the webpage.
-
+//This page + manifest.json was worked on by Zamokuhle Khuzwayo
